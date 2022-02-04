@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          ip freeze > requirements.txt
+          pip freeze > requirements.txt
       # Run our unit tests
       - name: Run unit tests
         run: |
